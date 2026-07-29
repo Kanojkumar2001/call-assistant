@@ -1,0 +1,6 @@
+{
+  "name": "CallSense AI",
+  "description": "AI-powered missed call and intelligent voicemail assistant with real-time analytics, speech-to-text, and urgency summaries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -32,7 +32,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
     private val db = AppDatabase.getDatabase(application)
     private val repository = VoicemailRepository(db.voicemailDao(), db.assistantSettingsDao())
-    val authRepository = FirebaseAuthRepository()
+    val authRepository = FirebaseAuthRepository(application)
 
     val authState: StateFlow<AuthState> = authRepository.authState
 

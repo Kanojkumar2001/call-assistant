@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "102235696238",
+    "firebase_url": "https://callsenseai-477b0-default-rtdb.firebaseio.com",
+    "project_id": "callsenseai-477b0",
+    "storage_bucket": "callsenseai-477b0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102235696238:android:ce6ba03180b42221680a7f",
+        "android_client_info": {
+          "package_name": "com.aistudio.callassistant.pqvzlm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102235696238-7ojaij0q5tpbs6ll7pa0gq1ph30ghbn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXikU9Fex6VOTVD2HWHp97yqh6ic_mYHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102235696238-7ojaij0q5tpbs6ll7pa0gq1ph30ghbn3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

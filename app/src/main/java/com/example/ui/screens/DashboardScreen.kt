@@ -12,7 +12,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.BarChart
 import androidx.compose.material.icons.filled.Call
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.PhoneCallback
+import androidx.compose.material.icons.automirrored.filled.PhoneCallback
 import androidx.compose.material.icons.filled.RecordVoiceOver
 import androidx.compose.material.icons.filled.Speed
 import androidx.compose.material.icons.filled.Timer
@@ -103,7 +103,7 @@ fun DashboardScreen(
         floatingActionButton = {
             ExtendedFloatingActionButton(
                 onClick = { showSimulateDialog = true },
-                icon = { Icon(imageVector = Icons.Default.PhoneCallback, contentDescription = null) },
+                icon = { Icon(imageVector = Icons.AutoMirrored.Filled.PhoneCallback, contentDescription = null) },
                 text = { Text("Simulate AI Call") },
                 containerColor = IndigoPrimary,
                 contentColor = Color.White
